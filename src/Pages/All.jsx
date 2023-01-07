@@ -18,7 +18,7 @@ const All = () => {
         })
         setLoading(false)
     }
-    
+
     useEffect(()=>{
         getData()
     },[page])
