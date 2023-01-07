@@ -3,7 +3,6 @@ import axios from "axios"
 import { useEffect } from 'react'
 import { useState } from 'react'
 import { SimpleGrid, Box, Button, Flex } from '@chakra-ui/react'
-import { Link } from 'react-router-dom'
 const JavaScript = () => {
 
     const [loading, setLoading] = useState(false)
