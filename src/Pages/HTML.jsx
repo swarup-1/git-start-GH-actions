@@ -21,7 +21,7 @@ const HTML = () => {
     }
     useEffect(()=>{
         getData()
-    },[page,getData()])
+    },[page])
     // console.log('length:', length)
     if(loading){
         return <h1>Loding...</h1>
